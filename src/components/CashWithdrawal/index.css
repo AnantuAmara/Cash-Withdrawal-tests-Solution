@@ -1,0 +1,85 @@
+/* Write your CSS here */
+.container {
+  background-color: #c4c4c4;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-2 {
+  background-color: #150b3e;
+  width: 50%;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 8px;
+}
+
+.name-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 40px;
+  padding-top: 20px;
+}
+
+.btn-1 {
+  height: 40px;
+  width: 40px;
+  border-style: solid;
+  border-width: 0px;
+  border-radius: 20px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  padding: 5px;
+  margin: 10px;
+}
+
+.heading {
+  font-size: 20px;
+  color: #c7d2fe;
+  font-family: 'Roboto';
+  margin: 10px;
+}
+.blns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.heading-1 {
+  color: #382f5a;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.heading-2 {
+  color: #d4d2db;
+  font-size: 25px;
+  font-family: 'Roboto';
+}
+.paragraph-2 {
+  color: #382f5a;
+  font-size: 15px;
+  font-family: 'Roboto';
+}
+.heading-3 {
+  color: #d4d2db;
+  font-size: 20px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+}
+.paragraph-3 {
+  color: #382f5a;
+  font-size: 15px;
+  font-family: 'Roboto';
+  margin-left: 40px;
+  font-weight: 600;
+}
+.list-container {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
